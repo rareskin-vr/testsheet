@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "testsheet"
+version = "0.1.0"
+description = "A tool to extract test cases from test scripts and export them to Excel."
+authors = [
+    { name="Shivam Kumar Singh", email="sinhverified@gmail.com" }
+]
+license = { file="LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "openpyxl>=3.0.0",
+]
+
+[project.scripts]
+testsheet = "testsheet.cli:main"
