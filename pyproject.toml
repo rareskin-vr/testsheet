@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "testsheet"
-version = "0.1.0"
+version = "0.2.0"
 description = "A tool to extract test cases from test scripts and export them to Excel."
 authors = [
     { name="Shivam Kumar Singh", email="sinhverified@gmail.com" }
