@@ -1,7 +1,7 @@
 # testsheet/cli.py
 import sys
 import os
-from test_sheet import test_sheet
+from testsheet import test_sheet
 
 def main():
     if len(sys.argv) != 2:
